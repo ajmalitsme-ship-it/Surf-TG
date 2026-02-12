@@ -6,9 +6,9 @@ if Path("config.env").exists():
     load_dotenv("config.env")
 
 class Telegram:
-    API_ID = int(getenv("API_ID", "0"))
-    API_HASH = getenv("API_HASH", "")
-    BOT_TOKEN = getenv("BOT_TOKEN", "")
+    API_ID = int(getenv("API_ID", "27806628"))
+    API_HASH = getenv("API_HASH", "25d88301e886b82826a525b7cf52e090")
+    BOT_TOKEN = getenv("BOT_TOKEN", "8534850201:AAGpDJFDSapmKL2jlp4P74mMX4mgQ9VEBFM")
     PORT = int(getenv("PORT", 8080))
     SESSION_STRING = getenv("SESSION_STRING", "")
     BASE_URL = getenv("BASE_URL", "").rstrip('/')
